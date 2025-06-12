@@ -38,8 +38,6 @@ function config() {
         add_theme_support('automatic-feed-links');
         add_theme_support('html5',array('search-form','comment-form','comment-list','gallery','caption','style','script'));
 
-        ));
-
         add_action('after_setup_theme','config',0);
     }
 
